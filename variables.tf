@@ -1,19 +1,19 @@
 variable "project_id" {
   description = "GCP Project ID"
   type        = string
-  default     = "fixmate-479714"
+  default     = "terraform-480812"
 }
 
 variable "region" {
   description = "GCP Region"
   type        = string
-  default     = "asia-south1"
+  default     = "asia-southeast1"
 }
 
 variable "zone" {
   description = "GCP Zone"
   type        = string
-  default     = "asia-south1-a"
+  default     = "asia-southeast1-a"
 }
 
 variable "network" {
@@ -25,5 +25,5 @@ variable "network" {
 variable "subnetwork" {
   description = "Subnetwork Name"
   type        = string
-  default     = null
+  default     = "default"
 }
